@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(#001020, #060606);
+    background-color: black;
     color: #fff;
     min-height: 100vh;
     //width: 100vw;
