@@ -1,1 +1,46 @@
-{}
+{
+  "intro": [
+    {
+      "name": "seangau",
+      "disc": "環境、藝術、工程師，位元創意創辦人，參與這個計劃是因為對於政府強推數位身分證感到疑惑，希望能更了解不全的措施會有的後果，學過一點點遊戲設計，對於如何共創出一個充滿議題性的遊戲與展覽感興趣。"
+    }
+  ],
+  "media": [
+    {
+      "img": "cna1.jpg",
+      "date": "2020/11/05",
+      "title": "[中央社] 提數位身分證3大問題 中研院學者盼暫緩換發",
+      "link": "https://www.cna.com.tw/news/firstnews/202011050040.aspx"
+    },
+    {
+      "img": "cna2.jpg",
+      "date": "2020/10/06",
+      "title": "[中央社] 數位身分證110年7月全面換發 3縣市先試辦",
+      "link": "https://www.cna.com.tw/news/firstnews/202010055004.aspx"
+    },
+    {
+      "img": "udn1.jpg",
+      "date": "2020/10/06",
+      "title": "[UDN] 【解惑Q&A】數位身分證跟傳統身分證有什麼不同？ 可以不換嗎？",
+      "link": "https://udn.com/news/story/7314/4914229"
+    },
+    {
+      "img": "reporter1.jpg",
+      "date": "2020/08/05",
+      "title": "[報導者] 【投書】國民如何信任數位身分證？愛沙尼亞數位治理經驗給台灣的啟示",
+      "link": "https://www.twreporter.org/a/opinion-e-governance-in-estonia"
+    },
+    {
+      "img": "medium1.jpg",
+      "date": "2020/07/01",
+      "title": "[雨蒼] 數位身分證議題懶人包",
+      "link": "https://medium.com/@billy3321/%E6%95%B8%E4%BD%8D%E8%BA%AB%E5%88%86%E8%AD%89%E8%AD%B0%E9%A1%8C%E6%87%B6%E4%BA%BA%E5%8C%85-af2b568c63a"
+    },
+    {
+      "img": "cna1.jpg",
+      "date": "2020/04/27",
+      "title": "[數位時代] 數位身分證10月無法上路了，為何上百位資安專家連署反對全面換發？",
+      "link": "https://www.bnext.com.tw/article/57459/eid-delay-pandemic"
+    }
+  ]
+}

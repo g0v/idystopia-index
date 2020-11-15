@@ -1,3 +1,5 @@
+- var _intro = intro;
+- var _media = media;
 doctype html
 html(lang='zh-TW')
   head
@@ -66,9 +68,9 @@ html(lang='zh-TW')
           h3 g0v 雙月大黑客松
           p alpha版本demo
           a.btn.btn-outline-my(role='button' href='https://jothon.g0v.tw/' target='_blank') g0v 揪松網
-        li.event(data-date='2020/12/14-20')
+        li.event(data-date='2020/12/4-6')
           h3 g0v Summit 2020 @Tainan
-          p 國際工作坊
+          p 國際工作坊&遊戲上線
           a.btn.btn-outline-my(role='button' href='https://summit.g0v.tw/2020/zh/' target='_blank') 大會官網
         li.event(data-date='2020/12/14-20')
           h3 installation
@@ -134,6 +136,39 @@ html(lang='zh-TW')
               br
               br
               | （文: ipa)
+    .container-fluid
+      .row.justify-content-center.align-items-center
+        .col-10.col-lg-8.py-4
+          h3 媒體報導
+          #carouselMedias.carousel.slide(data-ride="carousel")
+            .carousel-inner
+              mixin medias(_id)
+                .p-2.col-12.col-lg-4
+                  .p-3.col-block.h-100
+                    .media-img(style=`background-image: url('assets/img/media/${_media[_id]["img"]}')`)
+                    p.media-date #{_media[_id]['date']}
+                    p.media-title
+                      a(href=_media[_id]['link'] target="_blank") #{_media[_id]['title']}
+              .carousel-item.active
+                .row.p-2
+                  each val in [0,1,2]
+                    +medias(val)
+              .carousel-item
+                .row.p-2
+                  each val in [3,4,5]
+                    +medias(val)
+
+                        //.row.justify-content-center.align-items-center.about-intros
+                          .col-10.col-lg-6
+                            mixin intros(_id)
+                              .col-3
+                                a #{_intro[_id]['name']}
+                              .col
+                                p #{_intro[_id]['disc']}
+                            .row
+                              each val, index in _intro
+                                +intros(index)
+
     .text-center.about-contributor.p-4
       h3 貢獻者
       a
@@ -144,10 +179,10 @@ html(lang='zh-TW')
         | ipa, clkao
         br
         b 名稱、概念與計畫文字：
-        | shunling, ipa
+        | shunling, ipa, isabel
         br
         b 遊戲設計：
-        | 興德, sean, clkao, stimim
+        | sean, clkao, stimim, 興德
         br
         b 遊戲程式：
         | sean, clkao, stimim, yutin
@@ -158,6 +193,13 @@ html(lang='zh-TW')
         b 視覺設計：
         | yue, stella
         br
+        br
+        b 協力單位：
+        br
+        .container
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              img(src="assets/img/dsc.png" style="height: auto; width: 100%;")
     .container-fluid.footer.text-center
       span 文字圖像：CC-by 4.0
       span 程式碼：MIT  g0v IDystopia 2035 / g0v community
