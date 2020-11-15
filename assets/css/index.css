@@ -39,7 +39,7 @@ a:link, a:visited {
     background-color: rgba(255,255,255,0.1);
 }
 
-.about-contributor {
+.about-contributor, .about-intros {
     border: 1px solid rgba(255,255,255,0.1);
     border-width: 1px 0 1px 0;
     border-radius: 3px;
@@ -48,6 +48,21 @@ a:link, a:visited {
 .about-contributor b {
     color: #AAA;
 }
+
+.col-block {
+    border: 1px solid #666;
+    transition: 0.5s;
+}
+.col-block:hover {
+    border: 1px solid #AAA;
+}
+.media-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 75%;
+}
+
 
 .footer {
     min-height: 3em;
