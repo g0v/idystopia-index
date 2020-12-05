@@ -141,6 +141,9 @@ html(lang='zh-TW')
         .col-10.col-lg-8.py-4
           h3 媒體報導
           #carouselMedias.carousel.slide(data-ride="carousel")
+            ol.carousel-indicators(style="bottom: -2em;")
+              li.active(data-target="#carouselMedias" data-slide-to="0")
+              li(data-target="#carouselMedias" data-slide-to="1")
             .carousel-inner
               mixin medias(_id)
                 .p-2.col-12.col-lg-4
