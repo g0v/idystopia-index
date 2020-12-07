@@ -67,7 +67,10 @@
   content: "";
   top: 5px;
 }
-
+#opencalls .modal-body p span {
+  padding-right: 1em;
+  color: #04fefd;
+}
 @media (max-width: 992px) {
     .timeline {
         max-width: 80%;
