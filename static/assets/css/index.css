@@ -19,6 +19,26 @@ a:link, a:visited {
     color: #F0F;
 }
 
+#loading {
+  background-color: #001020;
+  z-index: 999999999999999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#loading img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8em;
+  height: 8em;
+  margin-left: -4em;
+  margin-top: -4em;
+}
+
 .main-visual {
     position: relative;
     min-height: 100vh;
