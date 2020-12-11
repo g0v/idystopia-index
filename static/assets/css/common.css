@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(#001020, #060606);
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+    //width: 100vw;
+    //overflow-x: hidden;
+    font-family: 'Exo 2', 'Noto Serif TC', sans-serif;
+}
+
+p {
+    text-align: justify;
+    text-justify:inter-ideograph;
+    line-height: 1.5em;
+    color: #DDD;
+}
+
+a:link, a:visited {
+    color: #F0F;
+}
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+#loading {
+  display: none;
+}
+.loading #loading {
+  display: block;
+  background-color: #001020;
+  z-index: 999999999999999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+#loading img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8em;
+  height: 8em;
+  margin-left: -4em;
+  margin-top: -4em;
+}
+
+
+.footer {
+    min-height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AAA;
+}
+
+.footer span {
+    padding: 0 2em;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-width: 0 1px 0 1px;
+}
+
+.navbar-dark .navbar-brand {
+    color: #04fefd;
+}
+
+.btn-outline-my, .btn-outline-my:visited, .btn-outline-my:link {
+  color: #04fefd;
+  border: 1.2px solid #04fefd;
+}
+.btn-outline-my:hover {
+  color: #FFF;
+  background-color: #04fefd;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}
+
+@media (max-width: 992px) {
+    .footer span {
+        padding: 0.5em;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-width: 0 1px 0 1px;
+    }
+}

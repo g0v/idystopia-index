@@ -1,0 +1,22 @@
+body {
+  background-image: url("../img/main_w.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.container {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,.95);
+}
+table {
+}
+td, th {
+  border: 1px solid white;
+  padding: 1em;
+  background-color: rgba(128,128,128,.1);
+}
+table p span {
+  padding-right: 1em;
+  color: #04fefd;
+}
