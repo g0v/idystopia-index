@@ -1,13 +1,12 @@
 body {
-  background-image: url("../img/main_w.jpg");
+  background-image: url("../img/main.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-.container {
-  border-radius: 5px;
-  background-color: rgba(0,0,0,.95);
+.container-fluid {
+  background-color: rgba(0,0,0,.8);
 }
 table {
 }

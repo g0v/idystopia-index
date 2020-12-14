@@ -4,39 +4,41 @@ html(lang='zh-TW')
   link(rel='stylesheet' href='/assets/css/panels.css')
   body
     include ../nav.pug
-    .container.p-4.mt-4
-      h1 論壇/panels
-      h4.py-2 地點: 聯合餐廳1F實驗室前町
-      table
-        thead
-          tr
-            th(scope="col" style="min-width: 10em;") 時間
-            th(scope="col") 內容
-        tbody
-          tr
-            th(scope="row") 14:00-14:30
-            td 莊庭瑞，30分鐘開場介紹：回憶李士傑以及90年代的情景，並連結到 岔派樂基因
-          tr
-            th(scope="row") 14:30-15:00
-            td 李紫彤介紹「岔經濟()」計畫
-          tr
-            th(scope="row") 15:00-15:30
-            td 超免疫北市團隊進行創作計畫介紹
-          tr
-            th(scope="row") 15:30-15:45
-            td 中場休息
-          tr
-            th(scope="row") 15:45-17:00
-            td 「IDystopia 2035 數位身分大冒險」論壇, 團隊正在邀請以下來賓對談: 高嘉良（g0v）、邱文聰（中研院法律所）、莊庭瑞（中研院資訊所）對談，並由 陳舜伶主持（中研院法律所
-          tr
-            th(scope="row") 18:00-19:00
-            td 「Il y a … 存在著...」四方幸子及唐鳳對談，鄭淑麗主持
-          tr
-            th(scope="row") 19:00-20:30
-            td Kitchen Social Act 晚餐交流
-          tr
-            th(scope="row") 21:00-22:00
-            td 岔派樂基因藝術團隊自由展演
-          tr
-            th(scope="row") 
-            td Lynn Hershman The Electronic Diaries 放映（約70分鐘），只有一場！
+    .container-fluid.p-4
+      .row.justify-content-center.align-items-center
+        .col-12.col-lg-8
+          h1 論壇/panels
+          h4.py-2 地點: 聯合餐廳1F實驗室前町
+          table
+            thead
+              tr
+                th(scope="col" style="min-width: 10em;") 時間
+                th(scope="col") 內容
+            tbody
+              tr
+                th(scope="row") 14:00-14:30
+                td 莊庭瑞，30分鐘開場介紹：回憶李士傑以及90年代的情景，並連結到 岔派樂基因
+              tr
+                th(scope="row") 14:30-15:00
+                td 李紫彤介紹「岔經濟()」計畫
+              tr
+                th(scope="row") 15:00-15:30
+                td 超免疫北市團隊進行創作計畫介紹
+              tr
+                th(scope="row") 15:30-15:45
+                td 中場休息
+              tr
+                th(scope="row") 15:45-17:00
+                td 「IDystopia 2035 數位身分大冒險」論壇, 團隊正在邀請以下來賓對談: 高嘉良（g0v）、邱文聰（中研院法律所）、莊庭瑞（中研院資訊所）對談，並由 陳舜伶主持（中研院法律所
+              tr
+                th(scope="row") 18:00-19:00
+                td 「Il y a … 存在著...」四方幸子及唐鳳對談，鄭淑麗主持
+              tr
+                th(scope="row") 19:00-20:30
+                td Kitchen Social Act 晚餐交流
+              tr
+                th(scope="row") 21:00-22:00
+                td 岔派樂基因藝術團隊自由展演
+              tr
+                th(scope="row") 
+                td Lynn Hershman The Electronic Diaries 放映（約70分鐘），只有一場！
